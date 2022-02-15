@@ -1,0 +1,207 @@
+*{
+  max-width:1100px;
+  box-sizing: border-box;
+}
+
+
+body {
+}
+
+a:link { text-decoration: none; }
+
+
+.flex-container-1 {
+  display: flex;
+  flex-direction: row;
+}
+.flex-container-2 {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.what-we-do { 
+  top: 200px;
+  left:40px;
+  position: relative;
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 30px;
+  text-align: center;
+  z-index: 2;
+  box-shadow: 5px 5px 5px #887860;  
+  font-size:23px;
+}
+
+.what-we-do > p {
+  font-size: 17.5px;
+}
+
+
+.work-with-us {
+  top: 200px;
+  right:-70px;
+  position: relative;
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 30px;
+  text-align: center;
+  z-index: 2;
+  box-shadow: 5px 5px 5px #887860;
+  font-size: 23px;
+}
+
+.work-with-us > p {
+  font-size: 17.5px;
+}
+
+li {
+  flex: 1;
+  display: inline;
+  padding-left: 12px;
+  padding-right:12px; 
+  font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+  text-decoration: none;
+}
+
+nav a { 
+color:#2273F5
+
+}
+
+.nav a:hover {
+  color: darkblue;
+  text-shadow: 0px 10px 10px #ccc;
+} 
+
+.clarencebannerHeader {
+  position: absolute;
+  left: 59px;
+  top: 20px;
+  box-shadow: 3px 3px 11px #887860;
+}
+
+.clarencebannerFooter {
+  position: absolute;
+  left: 59px;
+  bottom: 20px;
+  box-shadow: 3px 3px 11px #ccc;
+  z-index: 2;
+}
+.facebookIcon {
+  position:relative; 
+  left:1017px;
+  top:135px;
+  width:3.35%;
+  box-shadow: 3px 5px 15px #ccc;
+}
+
+.facebookIcon:hover {
+opacity:90%;
+box-shadow: 3px 13px 11px #ccc;
+cursor:pointer
+} 
+
+.twitterIcon {
+  position:relative; 
+  left:1010px;
+  top:137px;
+  width:3.8%;
+  box-shadow: 2px 5px 10px #ccc;
+}
+
+.twitterIcon:hover {
+  opacity:90%;
+  box-shadow: 3px 13px 11px #ccc;
+  cursor:pointer;
+} 
+
+.nav {
+  position: absolute;
+  top: 180px;
+  font-size:17px
+}
+
+.backgroundPhoto {
+  width: 1500px;
+  position: absolute;
+  top: 230px;
+  z-index: 1;
+  border-radius:5px;
+}
+
+.contactUs {
+  position: relative;
+  top: 143px;
+  left: 843px;
+  font-size: 17.5px
+}
+
+/* .whatwedoText {
+  position: relative;
+  width: 1000px;
+  height: 143px;
+  word-wrap: break-word;
+  top: 248px; left:39px;
+  z-index:2;
+  font-size: 19.5px;
+  border: black;
+  border-width:1.1px;
+  border-style: ridge;
+  border-radius: 5px;
+  box-shadow: 5px 5px 7px grey;
+  margin: center;
+  text-align: center;
+  padding: 16px;
+  opacity: 80%
+} */
+
+/* .whenyouworkwithUs {
+  position: relative;
+  width: 1000px; height: 142px;
+  top: 530px; 
+  left: 39px;
+  word-wrap: break-word;
+  z-index:2;
+  font-size: 19.5px;
+  border: black;
+  border-width:1.1px;
+  border-style: ridge;
+  border-radius: 5px;
+  box-shadow: 5px 5px 7px grey;
+  margin: center;
+  text-align: center;
+  padding: 18px;
+  opacity: 80%
+} */
+
+.send-email {
+  position:relative;
+  width: 200px;
+  height: 35px;
+  bottom: 5px;
+  right: 90px;
+  z-index:2;
+  border-radius:7px;
+  font-size: 15.5px;
+}
+
+.choose-fileupload {
+  position:relative;
+  width: 125px;
+  height: 85px;
+  bottom: -910px;
+  right: -30px;
+  z-index:2;
+  border-radius:7px;
+  font-size: 15.5px;
+}
+
+#visits {
+  position:absolute;
+  top:200px;
+  background-color:red;
+}
+

@@ -1,0 +1,67 @@
+<!-- Added active website links to clarence facebook and twitter to their icons
+Relolved issue of social media icons were moving seperatley from everything else when stretch browser page by using position:relative.
+Used flexbox for the two textboxes instead of basic boxes before.
+Targeted the title fontsize using '>' than symbol(its a subsection of a class)
+Added button.
+Upgraded button to upload a cv and send email. from this website https://formsubmit.co/documentation
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" type = "text/css" href="./css/index.css" />
+</head>
+<body>
+ 
+  <img class="clarencebannerHeader"  src="https://assets.codepen.io/5931863/Clarence+Logo.png?" format="auto" alt="" />
+
+<!--   <img class="clarencebannerFooter"  src="https://assets.codepen.io/5931863/Clarence+Logo.png?" format="auto" alt="" /> -->
+
+<a href="https://twitter.com/ClarenceJobs" target="_blank">
+  <img class="twitterIcon" 
+      src="https://assets.codepen.io/5931863/TwitterIcon.png" </img/>
+</a>
+
+<a href="https://www.facebook.com/clarencerecruitment/?ref=hl" target="_blank">
+ <img class="facebookIcon" 
+      src="https://assets.codepen.io/5931863/FacebookIcon.png" />
+</a>
+
+<div 
+    class="contactUs"  >Connect with us on: 0116 318 0450
+</div>
+
+<ul class="nav">
+   <li><a href="#">Home</a></li>
+   <li><a href="#">Our Team</a></li>
+   <li><a href="#">Vacancies</a></li>
+   <li><a href="#">Education</a></li>
+   <li><a href="#">Compliance</a></li>
+   <li><a href="#">Contact</a></li>
+</ul>
+
+
+<div class="flex-container-1">
+  <div  class="what-we-do"> <u>Here is what we do</u> <br><br> 
+    <p> We Specialise in the Recruitment of Interim, Contract and Permanent
+Professionals across the UK in Education. 
+At Clarence we believe it's important to partner with like minded professionals to recruit the very best talent into your business or educational establishment.
+By lending our expertise to both our clients and candidates we can advise and deliver the most fulfilling career opportunities in the market.
+    </p>
+   </div>
+
+<div class="flex-container-2">
+<div class="work-with-us"> <u>When you work with us</u> <br><br> 
+ <p>Clarence Recruitment are motivated, inspired and committed to delivering awe-inspiring talented individuals to you. We're efficient, we are smart and we understand quickly what our clients need. We offer an exceptional service that is delivered by some awesome and forward thinking individuals in the market. Our team is made up of the UK's top talent. We're really fussy who we hire, it's our business to be!
+ </p>
+</div>
+</div>
+  
+<img class="backgroundPhoto" src="https://assets.codepen.io/5931863/spike.jpg">
+<form  class="choose-fileupload" action="https://formsubmit.co/fuell.python@gmail.com" method="POST" enctype="multipart/form-data">
+
+ <input class="send-email" type="file" >Send us your CV<name="attachment" accept="pdf, pdf">
+
+</form>
+
+<div> This site has been visited <span id="visits"></span> times. </div>
